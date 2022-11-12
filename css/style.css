@@ -60,7 +60,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  align-items: center;
   color: var(--main-color);
 }
 
@@ -255,8 +254,9 @@ button.upper-tab {
   color: var(--main-color);
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-  box-shadow: 0 -3px 3px #00000061;
-  margin-bottom: -2px;
+  box-shadow: -3px -4px 0 4px #00000061;
+  border-bottom: 1px #00000061;
+  border-bottom-style: dashed;
 }
 
 button.upper-tab:hover {
@@ -334,7 +334,7 @@ button.upper-tab:hover {
 
 #LeftPanel > .overlay > a > .title > .text {
   font-family: var(--main-font);
-  font-size: 30px;
+  font-size: 5.5vw;
   font-weight: 400;
   text-align: center;
 }
